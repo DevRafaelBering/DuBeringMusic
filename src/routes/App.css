@@ -1,0 +1,84 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.logo h1 {
+  margin-block: 0px;
+}
+a {
+  all: unset;
+}
+a:hover {
+  all: unset;
+  cursor: pointer;
+}
+.description {
+  margin-top: 5px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.input-search {
+  all: unset;
+  background-color: white;
+  color: black;
+  text-align: start;
+  padding-left: 15px;
+  height: 30px;
+  min-width: 500px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.album-card {
+  display: flex;
+  width: 256px;
+  padding: 10px;
+  flex-direction: column;
+  background-color: #474d58;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.album-card:hover {
+  filter: brightness(0.8);
+}
+.album-card img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.albums {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.album-card p,
+.album-card h2 {
+  margin: 0;
+}
