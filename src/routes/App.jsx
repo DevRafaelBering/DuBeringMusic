@@ -59,7 +59,7 @@ function App() {
     <>
       <div className="logo">
         <img src="./src/assets/Frame.svg" alt="" />
-        <h1>DurvalDiscos</h1>
+        <h1>DuBeringMusic</h1>
       </div>
       <p className="description">Pesquise qualquer artista e ouça no Spotify</p>
       <div className="search">
